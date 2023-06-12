@@ -1,0 +1,28 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="main" />
+            <item index="1" class="java.lang.String" itemvalue="js" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="django" />
+            <item index="1" class="java.lang.String" itemvalue="psycopg" />
+            <item index="2" class="java.lang.String" itemvalue="psycopg2" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" editorAttributes="INFO_ATTRIBUTES" />
+  </profile>
+</component>

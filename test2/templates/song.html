@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="POST" action="{{ url_for('main', user_id=id)}}">
+        <p>
+            <label>Your id: {{ id }}</label>
+        </p>
+        <p>
+            <label>Your token: {{ token }}</label>
+        </p>
+        <p>
+            <label>Your song: </label>
+            <input name="song">
+        </p>
+        <button>Add</button>
+    </form>
+</body>
+</html>
